@@ -1,0 +1,15 @@
+【方式一：Android Studio】
+1. 解压本工程。
+2. 使用 Android Studio 打开 VIPVideoAndroid 文件夹。
+3. 等待 Gradle 和 Android SDK 同步完成。
+4. 菜单选择：Build > Build Bundle(s) / APK(s) > Build APK(s)。
+5. APK 默认输出位置：app/build/outputs/apk/debug/app-debug.apk
+
+【方式二：GitHub Actions 自动构建】
+1. 将整个工程上传到 GitHub 仓库。
+2. 打开仓库 Actions 页面。
+3. 运行“Build Android APK”。
+4. 在运行结果的 Artifacts 中下载 VideoLinkAssistant-debug-apk。
+
+【重要调整】
+原程序使用第三方网站解析会员视频的功能未保留。安卓版本只打开用户输入的合法网页网址，不提供会员破解、付费内容解析或访问控制绕过功能。
